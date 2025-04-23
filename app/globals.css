@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 15, 23, 42;
+  --background-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-white backdrop-blur-md border border-gray-100 shadow-[0_8px_30px_rgba(0,0,0,0.08)];
+  }
+
+  .inner-card {
+    @apply bg-sky-50 rounded-xl p-6 shadow-sm border border-sky-100/50;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold text-slate-800 mb-6 flex items-center gap-2;
+  }
+
+  .section-highlight {
+    @apply bg-sky-100 text-sky-600 p-2 rounded-lg;
+  }
+}
+
+[data-theme="dark"] {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 15, 23, 42;
+}
+
+[data-theme="dark"] .glass-card {
+  @apply bg-slate-800/40 backdrop-blur-md border border-slate-700/50 shadow-[0_8px_30px_rgba(0,0,0,0.12)];
+}
+
+[data-theme="dark"] .section-title {
+  @apply text-white;
+}
+
+[data-theme="dark"] .section-highlight {
+  @apply bg-sky-500/20 text-sky-400;
+}
+
+[data-theme="dark"] .glass-card h3,
+[data-theme="dark"] .glass-card h4 {
+  @apply text-white;
+}
+
+[data-theme="dark"] .glass-card p,
+[data-theme="dark"] .glass-card label,
+[data-theme="dark"] .glass-card li {
+  @apply text-gray-300;
+}
+
+[data-theme="dark"] .inner-card {
+  @apply bg-slate-700/50 border-slate-600/50;
+}
