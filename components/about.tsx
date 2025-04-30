@@ -46,6 +46,7 @@ export default function About() {
             teams and delivering intelligent solutions that consistently exceed expectations. My approach combines
             technical excellence with a deep understanding of user needs, resulting in applications that are not only
             powerful but also intuitive and accessible.
+            <a rel="me" href="https://mastodon.social/@lucastaylor66">Mastodon</a>
           </p>
         </div>
       </motion.div>
