@@ -18,7 +18,7 @@ export default function Hero() {
         >
           <div className="w-32 h-32 rounded-full overflow-hidden mx-auto border-4 border-sky-400 shadow-lg shadow-sky-500/20">
             <Image
-              src="/me_half.png"
+              src="/165153784.jfif"
               alt="Lucas Taylor"
               width={128}
               height={128}
