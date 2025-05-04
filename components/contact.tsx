@@ -70,13 +70,13 @@ export default function Contact() {
           <span>Touch</span>
         </h2>
 
-        <p className="text-center text-slate-600 mb-12 max-w-2xl mx-auto">
+        <p className="text-center text-slate-600 mb-12 max-w-2xl mx-auto" style={{"fontSize": "45px"}}>
           Feel free to reach out for collaborations or just a friendly hello
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Contact Info Card */}
-          <div className="glass-card rounded-2xl p-8">
+          <div className="glass-card rounded-2xl p-8 blur-effect">
             <h3 className="text-xl font-semibold text-slate-800 mb-6">Contact Information</h3>
 
             <div className="grid grid-cols-2 gap-6">
@@ -122,7 +122,7 @@ export default function Contact() {
           </div>
 
           {/* Contact Form Card */}
-          <div className="glass-card rounded-2xl p-8">
+          <div className="glass-card rounded-2xl p-8 blur-effect">
             <h3 className="text-xl font-semibold text-slate-800 mb-6">Send Me a Message</h3>
 
             <form onSubmit={handleSubmit} className="space-y-4">

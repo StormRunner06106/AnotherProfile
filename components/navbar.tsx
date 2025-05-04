@@ -61,6 +61,9 @@ export default function Navbar() {
           <a href="#projects" className="text-slate-700 hover:text-sky-600 transition-colors">
             Projects
           </a>
+          <a href="#posts" className="text-slate-700 hover:text-sky-600 transition-colors">
+            Posts
+          </a>
           <a href="#contact" className="text-slate-700 hover:text-sky-600 transition-colors">
             Contact
           </a>

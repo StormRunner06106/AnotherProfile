@@ -58,7 +58,7 @@ export default function Experience() {
           <span>Experience</span>
         </h2>
 
-        <div className="glass-card rounded-2xl p-8 mb-12">
+        <div className="glass-card rounded-2xl p-8 mb-12 blur-effect">
           <div className="space-y-12">
             {experiences.map((exp, index) => (
               <motion.div
@@ -70,7 +70,7 @@ export default function Experience() {
                 className="relative pl-8 md:pl-0"
               >
                 <div className="md:grid md:grid-cols-12 gap-8">
-                  {/* Timeline dot and line */}
+                  {/* Timeline dot and line
                   <div className="hidden md:block md:col-span-1 relative">
                     <div className="absolute top-0 left-1/2 transform -translate-x-1/2 h-full">
                       <div className="h-full w-0.5 bg-sky-200"></div>
@@ -78,7 +78,7 @@ export default function Experience() {
                     <div className="absolute top-0 left-1/2 transform -translate-x-1/2">
                       <div className="h-6 w-6 rounded-full bg-sky-500 border-4 border-white shadow-md"></div>
                     </div>
-                  </div>
+                  </div> */}
 
                   {/* Mobile timeline dot and line */}
                   <div className="absolute left-0 top-0 h-full md:hidden">
@@ -89,10 +89,10 @@ export default function Experience() {
                   </div>
 
                   {/* Content */}
-                  <div className="md:col-span-11">
+                  <div className="md:col-span-12">
                     <div className="flex flex-col md:flex-row justify-between mb-4">
                       <div>
-                        <h3 className="text-xl font-semibold text-slate-800">{exp.position}</h3>
+                        <h3 className="text-xl font-semibold text-slate-800 mb-4">{exp.position}</h3>
                         <div className="flex items-center gap-2 text-slate-600 mt-1">
                           <Briefcase size={16} className="text-sky-600" />
                           <span>
@@ -128,7 +128,7 @@ export default function Experience() {
           <span>& Training</span>
         </h2>
 
-        <div className="glass-card rounded-2xl p-8">
+        <div className="glass-card rounded-2xl p-8 blur-effect">
           <div className="flex items-center gap-4 mb-6">
             <div className="bg-sky-100 p-3 rounded-lg text-sky-600">
               <GraduationCap className="h-6 w-6" />

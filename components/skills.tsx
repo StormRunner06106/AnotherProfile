@@ -86,7 +86,7 @@ export default function Skills() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="glass-card rounded-2xl p-6 hover:shadow-lg transition-shadow duration-300"
+              className="glass-card rounded-2xl p-6 hover:shadow-lg transition-shadow duration-300 blur-effect"
             >
               <div className="flex items-center gap-3 mb-4">
                 <div className="bg-sky-100 p-3 rounded-lg text-sky-600">{category.icon}</div>

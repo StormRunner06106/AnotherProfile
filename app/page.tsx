@@ -7,6 +7,7 @@ import Projects from "@/components/projects"
 import Contact from "@/components/contact"
 import BackToTop from "@/components/back-to-top"
 import BubbleBackground from "@/components/bubble-background"
+import Posts from "@/components/posts"
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           <Skills />
           <Experience />
           <Projects />
+          <Posts />
           <Contact />
         </div>
         <BackToTop />

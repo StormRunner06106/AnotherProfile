@@ -4,6 +4,8 @@ import { ADDRESS, MAIL } from "@/lib/constants"
 import { motion } from "framer-motion"
 import { Mail, MapPin } from "lucide-react"
 
+import "../styles/custom.css";
+
 export default function About() {
   return (
     <section id="about" className="pt-16">
@@ -19,7 +21,7 @@ export default function About() {
           <span>Me</span>
         </h2>
 
-        <div className="glass-card rounded-2xl p-8">
+        <div className="glass-card rounded-2xl p-8 blur-effect">
           <div className="flex flex-col md:flex-row justify-between mb-6">
             <h3 className="text-2xl font-semibold text-slate-800 mb-2">Professional Summary</h3>
             <div className="flex flex-col text-slate-600">

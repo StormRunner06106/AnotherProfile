@@ -117,7 +117,7 @@ export default function Projects() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
-              <div className="glass-card rounded-2xl h-full flex flex-col hover:shadow-lg transition-shadow duration-300">
+              <div className="glass-card rounded-2xl h-full flex flex-col hover:shadow-lg transition-shadow duration-300 blur-effect">
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-4">
                     <div>

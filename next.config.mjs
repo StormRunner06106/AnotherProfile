@@ -9,6 +9,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  env: {
+    SUPABASE_KEY: process.env.SUPABASE_KEY,
+  }
 }
 
 export default nextConfig
